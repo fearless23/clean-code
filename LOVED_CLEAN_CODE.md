@@ -1,0 +1,7 @@
+- Flyte packages
+- AWS SDK V3
+- Typescript
+- App Runner
+- event input normalization
+- Use of Ztod, joi for event schema
+- Handler wrapper / Resolver wrapper / Controller Wrapper
