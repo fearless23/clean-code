@@ -2,6 +2,8 @@
 - AWS SDK V3
 - Typescript
 - App Runner
+- Unit tests, but remove automate from devtools
+- add prettier to devtools & eslint
 - event input normalization
 - Use of Ztod, joi for event schema
 - Handler wrapper / Resolver wrapper / Controller Wrapper

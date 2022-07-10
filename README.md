@@ -16,3 +16,15 @@ My viewepoint on clean code architecture
 sideEffect: change some state
 Functon that return nothing, must have some side-effect
 So, if a function returns something, should not have side-effect
+
+
+<!-- Unit tests -->
+Tests are integral part of system itself.
+If changing a helper file breaks a function, that is bad design.
+So, think of test as integral part of system, so if changing a line in function
+breaks your test ( Fragile tests ), you should design better tests.
+If changing some line in tests, break your functions, you should write
+better fucntions and better design.
+Think of tests first and then functions, then again tests, then again the functions.
+Keep this loop manageable (avoid very small or very large loops)
+
